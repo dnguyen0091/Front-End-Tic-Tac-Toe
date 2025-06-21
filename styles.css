@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Added for vertical centering */
+    align-items: center; /* Added for vertical centering */
+    height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+    gap:20px;
+    background-color: #A0937D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    font-size:60px;
+    flex-direction: row;
+    gap:40px;
+    
+}
+
+#turn{
+    font-size:30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 0px;
+
+    
+    /* Add margin auto for additional horizontal centering if needed */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6E6CB;
+    color: black;
+    border: none;
+    font-size: 16px;
+    
+    border-color:#E7D4B5;
+    border-style: solid;
+}
+
